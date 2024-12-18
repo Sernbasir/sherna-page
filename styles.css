@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f9f8fd; /* Soft pastel background */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Dark text for readability */
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #4a4a4a; /* Bold font color */
+}
+
+p, td {
+  font-size: 1rem;
+  color: #5a5a5a; /* Slightly lighter text for paragraphs */
+}
+
+/* Header */
+header {
+  background-color: #ffdee9; /* Soft pastel pink */
+  background-image: url('header-bg.jpg'); /* Optional background image */
+  background-size: cover;
+  background-position: center;
+  color: #333; /* Dark text for contrast */
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 5px solid #ffc3a0; /* Light pastel orange border */
+}
+
+/* Navigation Bar */
+.w3-bar {
+  background-color: #bae1ff; /* Soft pastel blue */
+  color: #333;
+}
+
+.w3-bar a {
+  color: #333;
+  font-weight: bold;
+}
+
+.w3-bar a:hover {
+  background-color: #b5f7cb; /* Soft pastel green on hover */
+  color: #fff; /* White text on hover */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #ffffff; /* White for a clean look */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+table th {
+  background-color: #ffe4e1; /* Pastel pink */
+  color: #333; /* Dark text */
+  font-weight: bold;
+  padding: 15px;
+}
+
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f8fd; /* Alternating pastel background */
+}
+
+table img {
+  border-radius: 5px; /* Rounded edges for images */
+}
+
+/* Footer */
+footer {
+  background-color: #ffc3a0; /* Soft pastel orange */
+  color: #fff; /* White text for footer */
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #ffe4e1; /* Light pastel pink on hover */
+}
+
+/* Buttons */
+.w3-button {
+  background-color: #b5f7cb; /* Soft pastel green */
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.w3-button:hover {
+  background-color: #bae1ff; /* Soft pastel blue on hover */
+  color: #fff;
+}
+
+/* Additional Styles for Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Rounded edges for all images */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}

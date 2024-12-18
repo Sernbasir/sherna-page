@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Serna's Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <style>
+    body, h1, h2, h3, h4, h5 { font-family: "Raleway", sans-serif; }
+    body {
+      background-color: #ffe6f2; /* Soft Pink Background */
+      color: #333; /* Darker text for better contrast */
+    }
+    .title-container {
+      background-color: #fff; /* White Background for "Serna's Page" */
+      padding: 16px;
+      display: inline-block;
+      border-radius: 8px;
+    }
+    .header-container {
+      text-align: center;
+      padding: 32px;
+    }
+    .w3-bar a { text-decoration: none; }
+    .gallery img {
+      width: 100%;
+      border-radius: 5px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .gallery .w3-quarter {
+      margin-bottom: 16px;
+    }
+
+    /* Flash Animation Styles */
+    .welcome-container {
+      position: relative;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+    .welcome-text {
+      font-size: 36px;
+      font-weight: bold;
+      color: #fff;
+      animation: flash 2s infinite;
+    }
+    /* Flash Animation */
+    @keyframes flash {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    /* Gradient Soft Purple Background Animation */
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, #e0c3fc, #8ec5fc);
+      background-size: 300% 300%;
+      animation: background-slide 6s infinite;
+      z-index: -1;
+    }
+    @keyframes background-slide {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="w3-content" style="max-width:1400px">
+
+  <!-- Header -->
+  <header class="header-container">
+    <div class="title-container">
+      <h1><b>Serna's Page</b></h1>
+    </div>
+    <div class="welcome-container">
+      <div class="background"></div>
+      <div class="welcome-text">Welcome to My Page</div>
+    </div>
+    <p>Welcome to the page of <span class="w3-tag">SERNA BINTI ABDUL BASIR</span></p>
+    <img src="assets/EM.gif" alt="Welcome GIF" style="width:300px; margin-top:10px;">
+  </header>
+
+  <!-- Navigation Bar -->
+  <div class="w3-bar w3-dark-grey w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-mobile w3-hover-black">Home</a>
+    <a href="biodata.html" class="w3-bar-item w3-button w3-mobile w3-hover-black">My Biodata</a>
+    <a href="portfolio.html" class="w3-bar-item w3-button w3-mobile w3-hover-black">My Portfolio</a>
+    <a href="video.html" class="w3-bar-item w3-button w3-mobile w3-hover-black">My Video</a>
+    <a href="comments.html" class="w3-bar-item w3-button w3-mobile w3-hover-black">Your Comments</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="w3-row">
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+      <div class="w3-card-4 w3-margin w3-white">
+        <img src="assets/serna.jpg" alt="Example" style="width:100%">
+        <div class="w3-container">
+          <h3><b>Welcome to My Page!</b></h3>
+          <p>Discover more about me, my projects, videos, and share your comments. Navigate using the menu above to explore the different sections of the site.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Sidebar -->
+    <div class="w3-col l4">
+      <div class="w3-card w3-margin w3-margin-top">
+        <div class="w3-container w3-padding">
+          <h4>About Me</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Hello, my name is Serna Abdul Basir, a 22-year-old student hailing from the beautiful coastal town of Semporna, Sabah. Currently, I am in my third year of pursuing a degree in Multimedia Technology at University Malaysia Sabah, Labuan International Campus.</p>
+          <img src="assets/cat.gif" alt="About Me GIF" style="width:100%; margin-top:10px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Gallery -->
+  <div class="w3-container w3-margin-top">
+    <h2>Gallery</h2>
+    <div class="w3-row-padding gallery">
+      <div class="w3-quarter">
+        <img src="assets/serna3.jpg" alt="Image 1">
+      </div>
+      <div class="w3-quarter">
+        <img src="assets/draw.jpg" alt="Image 2">
+      </div>
+      <div class="w3-quarter">
+        <img src="assets/bali.jpg" alt="GIF 1">
+      </div>
+      <div class="w3-quarter">
+        <img src="assets/umskal.jpg" alt="Image 4">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+    <p><a target="_blank">Serna Abdul Basir</a></p>
+  </footer>
+
+</div>
+
+</body>
+</html>
